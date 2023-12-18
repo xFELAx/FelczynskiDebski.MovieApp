@@ -9,13 +9,6 @@ using Microsoft.Extensions.DependencyInjection;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add logging configuration
-builder.Host.ConfigureLogging(logging =>
-{
-    logging.ClearProviders();
-    logging.AddConsole();
-    logging.SetMinimumLevel(LogLevel.Information);
-});
 
 builder.Configuration.AddInMemoryCollection(new Dictionary<string, string?>
 {

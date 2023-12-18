@@ -56,9 +56,14 @@ namespace FelczynskiDebski.MovieApp.UI.Controllers
                 : _movieDao.GetAll();
 
             // Explicitly load the FilmStudio navigation property for each Movie
+            // Explicitly load the FilmStudio navigation property for each Movie
             foreach (var movie in movies)
             {
-                movie.FilmStudio = _filmStudioDao.Get(movie.FilmStudioId);
+                var filmStudio = _filmStudioDao.Get(movie.FilmStudioId);
+                if (filmStudio != null)
+                {
+                    movie.FilmStudio = filmStudio;
+                }
             }
 
 
@@ -106,21 +111,7 @@ namespace FelczynskiDebski.MovieApp.UI.Controllers
             return View(movieGenreVM);
         }
 
-        private IActionResult GetMovie(int? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
 
-            var movie = _movieDao.Get(id.Value);
-            if (movie == null)
-            {
-                return NotFound();
-            }
-
-            return View(movie);
-        }
 
         // GET: Movies/Details/5
         public IActionResult Details(int? id)
@@ -133,8 +124,8 @@ namespace FelczynskiDebski.MovieApp.UI.Controllers
             // Fetch the data source from the session
             var dataSource = HttpContext.Session.GetString("DataSource");
 
-            Movie movieSql = null;
-            IMovie movieMock = null;
+            Movie? movieSql = null;
+            IMovie? movieMock = null;
 
             // Fetch the movie from the appropriate source
             if (dataSource == "SQL")
@@ -155,7 +146,11 @@ namespace FelczynskiDebski.MovieApp.UI.Controllers
                     return NotFound();
                 }
                 // Load the FilmStudio navigation property from the _filmStudioDao
-                movieMock.FilmStudio = _filmStudioDao.Get(movieMock.FilmStudioId);
+                var filmStudio = _filmStudioDao.Get(movieMock.FilmStudioId);
+                if (filmStudio != null)
+                {
+                    movieMock.FilmStudio = filmStudio;
+                }
                 if (movieMock.FilmStudio == null)
                 {
                     return NotFound();
@@ -164,19 +159,19 @@ namespace FelczynskiDebski.MovieApp.UI.Controllers
 
             var movieDto = new MovieDto
             {
-                Id = dataSource == "SQL" ? movieSql.Id : movieMock.Id,
-                Title = dataSource == "SQL" ? movieSql.Title : movieMock.Title,
-                ReleaseDate = dataSource == "SQL" ? movieSql.ReleaseDate : movieMock.ReleaseDate,
-                Price = dataSource == "SQL" ? movieSql.Price : movieMock.Price,
-                Genre = dataSource == "SQL" ? movieSql.Genre : movieMock.Genre,
-                Rating = dataSource == "SQL" ? movieSql.Rating : movieMock.Rating,
-                FilmStudioId = dataSource == "SQL" ? movieSql.FilmStudioId : movieMock.FilmStudioId,
+                Id = dataSource == "SQL" ? movieSql?.Id ?? default : movieMock?.Id ?? default,
+                Title = dataSource == "SQL" ? movieSql?.Title ?? default : movieMock?.Title ?? default,
+                ReleaseDate = dataSource == "SQL" ? movieSql?.ReleaseDate ?? default : movieMock?.ReleaseDate ?? default,
+                Price = dataSource == "SQL" ? movieSql?.Price ?? default : movieMock?.Price ?? default,
+                Genre = dataSource == "SQL" ? movieSql?.Genre ?? default : movieMock?.Genre ?? default,
+                Rating = dataSource == "SQL" ? movieSql?.Rating ?? default : movieMock?.Rating ?? default,
+                FilmStudioId = dataSource == "SQL" ? movieSql?.FilmStudioId ?? default : movieMock?.FilmStudioId ?? default,
                 FilmStudio = new FilmStudioDto
                 {
-                    Id = dataSource == "SQL" ? movieSql.FilmStudio.Id : movieMock.FilmStudio.Id,
-                    Name = dataSource == "SQL" ? movieSql.FilmStudio.Name : movieMock.FilmStudio.Name,
-                    Country = dataSource == "SQL" ? movieSql.FilmStudio.Country : movieMock.FilmStudio.Country,
-                    Movies = dataSource == "SQL" ? movieSql.FilmStudio.Movies.Select(m => new MovieDto
+                    Id = dataSource == "SQL" ? movieSql?.FilmStudio?.Id ?? default : movieMock?.FilmStudio?.Id ?? default,
+                    Name = dataSource == "SQL" ? movieSql?.FilmStudio?.Name ?? "" : movieMock?.FilmStudio?.Name ?? "",
+                    Country = dataSource == "SQL" ? movieSql?.FilmStudio?.Country ?? default : movieMock?.FilmStudio?.Country ?? default,
+                    Movies = dataSource == "SQL" ? movieSql?.FilmStudio?.Movies?.Select(m => new MovieDto
                     {
                         Id = m.Id,
                         Title = m.Title,
@@ -185,7 +180,7 @@ namespace FelczynskiDebski.MovieApp.UI.Controllers
                         Genre = m.Genre,
                         Rating = m.Rating,
                         FilmStudioId = m.FilmStudioId
-                    }).ToList() : movieMock.FilmStudio.Movies.Select(m => new MovieDto
+                    }).ToList() : movieMock?.FilmStudio.Movies?.Select(m => new MovieDto
                     {
                         Id = m.Id,
                         Title = m.Title,
@@ -227,49 +222,64 @@ namespace FelczynskiDebski.MovieApp.UI.Controllers
                 return View(movieDto);
             }
 
-            var filmStudio = _filmStudioDao.Get(movieDto.FilmStudioId.Value);
-
-            // Fetch the data source from the session
-            var dataSource = HttpContext.Session.GetString("DataSource");
-
-            Movie movie;
-
-            // Create the movie based on the data source
-            if (dataSource == "SQL")
+            if (movieDto.FilmStudioId.HasValue)
             {
-                movie = new Movie
+
+                var filmStudio = _filmStudioDao.Get(movieDto.FilmStudioId.Value);
+
+                // Fetch the data source from the session
+                var dataSource = HttpContext.Session.GetString("DataSource");
+
+                Movie movie;
+
+                // Create the movie based on the data source
+                if (dataSource == "SQL")
                 {
-                    Id = movieDto.Id,
-                    Title = movieDto.Title,
-                    ReleaseDate = movieDto.ReleaseDate,
-                    Price = movieDto.Price,
-                    Genre = movieDto.Genre,
-                    Rating = movieDto.Rating,
-                    FilmStudioId = filmStudio.Id
-                };
-                _context.Movie.Add(movie);
-                _context.SaveChanges();
+                    movie = new Movie
+                    {
+                        Id = movieDto.Id,
+                        Title = movieDto.Title ?? "",
+                        ReleaseDate = movieDto.ReleaseDate,
+                        Price = movieDto.Price,
+                        Genre = movieDto.Genre,
+                        Rating = movieDto.Rating ?? "",
+                        FilmStudioId = filmStudio?.Id ?? default
+                    };
+                    _context.Movie.Add(movie);
+                    _context.SaveChanges();
+                }
+                else
+                {
+                    movie = new Movie
+                    {
+                        Id = movieDto.Id,
+                        Title = movieDto.Title ?? "",
+                        ReleaseDate = movieDto.ReleaseDate,
+                        Price = movieDto.Price,
+                        Genre = movieDto.Genre,
+                        Rating = movieDto.Rating ?? "",
+                        FilmStudioId = filmStudio?.Id ?? default,
+                        FilmStudio = filmStudio != null ? (FilmStudio)filmStudio : new FilmStudio { Name = "Default Name" }
+                    };
+                    _movieDao.Add(movie);
+                    // Add the movie to the FilmStudio's Movies collection
+                    if (filmStudio != null)
+                    {
+                        ((FilmStudio)filmStudio).Movies.Add(movie);
+                    }
+                    else
+                    { return NotFound(); }
+                }
+
+                ViewData["FilmStudioId"] = new SelectList(_filmStudioDao.GetAll(), "Id", "Name", movieDto.FilmStudioId);
+                return RedirectToAction(nameof(Index));
             }
             else
             {
-                movie = new Movie
-                {
-                    Id = movieDto.Id,
-                    Title = movieDto.Title,
-                    ReleaseDate = movieDto.ReleaseDate,
-                    Price = movieDto.Price,
-                    Genre = movieDto.Genre,
-                    Rating = movieDto.Rating,
-                    FilmStudioId = filmStudio.Id,
-                    FilmStudio = (FilmStudio)filmStudio  // Set the FilmStudio navigation property
-                };
-                _movieDao.Add(movie);
-                // Add the movie to the FilmStudio's Movies collection
-                ((FilmStudio)filmStudio).Movies.Add((Movie)movie);
+                ModelState.AddModelError("FilmStudioId", "The FilmStudio field is required.");
+                ViewData["FilmStudioId"] = new SelectList(_filmStudioDao.GetAll(), "Id", "Name", movieDto.FilmStudioId);
+                return View(movieDto);
             }
-
-            ViewData["FilmStudioId"] = new SelectList(_filmStudioDao.GetAll(), "Id", "Name", movieDto.FilmStudioId);
-            return RedirectToAction(nameof(Index));
         }
         // GET: Movies/Edit/5
         public IActionResult Edit(int? id)
@@ -282,8 +292,8 @@ namespace FelczynskiDebski.MovieApp.UI.Controllers
             // Fetch the data source from the session
             var dataSource = HttpContext.Session.GetString("DataSource");
 
-            Movie movieSql = null;
-            IMovie movieMock = null;
+            Movie? movieSql = null;
+            IMovie? movieMock = null;
 
             // Fetch the movie based on the data source
             if (dataSource == "SQL")
@@ -306,25 +316,31 @@ namespace FelczynskiDebski.MovieApp.UI.Controllers
                     return NotFound();
                 }
                 // Load the FilmStudio navigation property from the _filmStudioDao
-                movieMock.FilmStudio = _filmStudioDao.Get(movieMock.FilmStudioId);
+                var filmStudio = _filmStudioDao.Get(movieMock.FilmStudioId);
+                if (filmStudio != null)
+                {
+                    movieMock.FilmStudio = filmStudio;
+                }
+                else
+                { return NotFound(); }
             }
 
             // Convert the Movie instance to a MovieDto instance
             var movieDto = new MovieDto
             {
-                Id = dataSource == "SQL" ? movieSql.Id : movieMock.Id,
-                Title = dataSource == "SQL" ? movieSql.Title : movieMock.Title,
-                ReleaseDate = dataSource == "SQL" ? movieSql.ReleaseDate : movieMock.ReleaseDate,
-                Price = dataSource == "SQL" ? movieSql.Price : movieMock.Price,
-                Genre = dataSource == "SQL" ? movieSql.Genre : movieMock.Genre,
-                Rating = dataSource == "SQL" ? movieSql.Rating : movieMock.Rating,
-                FilmStudioId = dataSource == "SQL" ? movieSql.FilmStudioId : movieMock.FilmStudioId,
+                Id = dataSource == "SQL" ? movieSql?.Id ?? default : movieMock?.Id ?? default,
+                Title = dataSource == "SQL" ? movieSql?.Title ?? "" : movieMock?.Title ?? "",
+                ReleaseDate = dataSource == "SQL" ? movieSql?.ReleaseDate ?? default : movieMock?.ReleaseDate ?? default,
+                Price = dataSource == "SQL" ? movieSql?.Price ?? default : movieMock?.Price ?? default,
+                Genre = dataSource == "SQL" ? movieSql?.Genre ?? default : movieMock?.Genre ?? default,
+                Rating = dataSource == "SQL" ? movieSql?.Rating ?? "" : movieMock?.Rating ?? "",
+                FilmStudioId = dataSource == "SQL" ? movieSql?.FilmStudioId ?? default : movieMock?.FilmStudioId ?? default,
                 FilmStudio = new FilmStudioDto
                 {
-                    Id = dataSource == "SQL" ? movieSql.FilmStudio.Id : movieMock.FilmStudio.Id,
-                    Name = dataSource == "SQL" ? movieSql.FilmStudio.Name : movieMock.FilmStudio.Name,
-                    Country = dataSource == "SQL" ? movieSql.FilmStudio.Country : movieMock.FilmStudio.Country,
-                    Movies = dataSource == "SQL" ? movieSql.FilmStudio.Movies.Select(m => new MovieDto
+                    Id = dataSource == "SQL" ? movieSql?.FilmStudio?.Id ?? default : movieMock?.FilmStudio?.Id ?? default,
+                    Name = dataSource == "SQL" ? movieSql?.FilmStudio?.Name ?? "" : movieMock?.FilmStudio?.Name ?? "",
+                    Country = dataSource == "SQL" ? movieSql?.FilmStudio?.Country ?? default : movieMock?.FilmStudio?.Country ?? default,
+                    Movies = dataSource == "SQL" ? movieSql?.FilmStudio?.Movies?.Select(m => new MovieDto
                     {
                         Id = m.Id,
                         Title = m.Title,
@@ -333,7 +349,7 @@ namespace FelczynskiDebski.MovieApp.UI.Controllers
                         Genre = m.Genre,
                         Rating = m.Rating,
                         FilmStudioId = m.FilmStudioId
-                    }).ToList() : movieMock.FilmStudio.Movies.Select(m => new MovieDto
+                    }).ToList() : movieMock?.FilmStudio.Movies?.Select(m => new MovieDto
                     {
                         Id = m.Id,
                         Title = m.Title,
@@ -346,7 +362,7 @@ namespace FelczynskiDebski.MovieApp.UI.Controllers
                 }
             };
 
-            ViewData["FilmStudioId"] = new SelectList(_filmStudioDao.GetAll(), "Id", "Name", movieDto.FilmStudioId ?? (dataSource == "SQL" ? movieSql.FilmStudioId : movieMock.FilmStudioId));
+            ViewData["FilmStudioId"] = new SelectList(_filmStudioDao.GetAll(), "Id", "Name", movieDto.FilmStudioId ?? (dataSource == "SQL" ? movieSql?.FilmStudioId ?? default : movieMock?.FilmStudioId ?? default));
             return View(movieDto);
         }
 
@@ -366,8 +382,8 @@ namespace FelczynskiDebski.MovieApp.UI.Controllers
             // Fetch the data source from the session
             var dataSource = HttpContext.Session.GetString("DataSource");
 
-            Movie existingMovieSql = null;
-            IMovie existingMovieMock = null;
+            Movie? existingMovieSql = null;
+            IMovie? existingMovieMock = null;
 
             // Fetch the movie based on the data source
             if (dataSource == "SQL")
@@ -413,22 +429,42 @@ namespace FelczynskiDebski.MovieApp.UI.Controllers
             // Create the movie based on the data source
             if (dataSource == "SQL")
             {
-                existingMovieSql.Title = movieDto.Title;
-                existingMovieSql.ReleaseDate = movieDto.ReleaseDate;
-                existingMovieSql.Price = movieDto.Price;
-                existingMovieSql.Genre = movieDto.Genre;
-                existingMovieSql.Rating = movieDto.Rating;
-                existingMovieSql.FilmStudioId = newFilmStudio.Id;
-                existingMovieSql.FilmStudio = _context.FilmStudio.Find(newFilmStudio.Id);
+                if (existingMovieSql != null)
+                {
 
-                _context.Movie.Update(existingMovieSql);
-                _context.SaveChanges();
+
+                    existingMovieSql.Title = movieDto.Title ?? "";
+                    existingMovieSql.ReleaseDate = movieDto.ReleaseDate;
+                    existingMovieSql.Price = movieDto.Price;
+                    existingMovieSql.Genre = movieDto.Genre;
+                    existingMovieSql.Rating = movieDto.Rating ?? "";
+                    existingMovieSql.FilmStudioId = newFilmStudio.Id;
+                    var filmStudio = _context.FilmStudio.Find(newFilmStudio.Id);
+                    if (filmStudio != null)
+                    {
+                        existingMovieSql.FilmStudio = filmStudio;
+                    }
+                    else
+                    { return NotFound(); }
+
+                    _context.Movie.Update(existingMovieSql);
+                    _context.SaveChanges();
+                }
             }
             else
             {
+                if (existingMovieMock == null)
+                {
+                    return NotFound();
+                }
                 var oldFilmStudio = _filmStudioDao.Get(existingMovieMock.FilmStudioId);
+                if (oldFilmStudio == null)
+                {
+                    return NotFound();
+                }
                 var movieToRemove = oldFilmStudio.Movies.FirstOrDefault(m => m.Id == existingMovieMock.Id);
-                if (oldFilmStudio != null && oldFilmStudio.Movies != null && movieToRemove != null)
+
+                if (movieToRemove != null)
                 {
                     var movieInOldFilmStudio = oldFilmStudio.Movies.FirstOrDefault(m => m.Id == movieToRemove.Id);
                     if (movieInOldFilmStudio != null)
@@ -440,17 +476,17 @@ namespace FelczynskiDebski.MovieApp.UI.Controllers
                 }
                 _filmStudioDao.Update(oldFilmStudio);
 
-                existingMovieMock.Title = movieDto.Title;
+                existingMovieMock.Title = movieDto.Title ?? "";
                 existingMovieMock.ReleaseDate = movieDto.ReleaseDate;
                 existingMovieMock.Price = movieDto.Price;
                 existingMovieMock.Genre = movieDto.Genre;
-                existingMovieMock.Rating = movieDto.Rating;
+                existingMovieMock.Rating = movieDto.Rating ?? "";
                 existingMovieMock.FilmStudioId = newFilmStudio.Id;
                 existingMovieMock.FilmStudio = newFilmStudio;
 
                 _movieDao.Update(existingMovieMock);
 
-                if (newFilmStudio != null && newFilmStudio.Movies != null)
+                if (newFilmStudio.Movies != null)
                 {
                     var movieList = newFilmStudio.Movies.ToList();
                     movieList.Add(existingMovieMock);
@@ -474,8 +510,8 @@ namespace FelczynskiDebski.MovieApp.UI.Controllers
             // Fetch the data source from the session
             var dataSource = HttpContext.Session.GetString("DataSource");
 
-            Movie movieSql = null;
-            IMovie movieMock = null;
+            Movie? movieSql = null;
+            IMovie? movieMock = null;
 
             // Fetch the movie based on the data source
             if (dataSource == "SQL")
@@ -498,25 +534,29 @@ namespace FelczynskiDebski.MovieApp.UI.Controllers
                     return NotFound();
                 }
                 // Load the FilmStudio navigation property from the _filmStudioDao
-                movieMock.FilmStudio = _filmStudioDao.Get(movieMock.FilmStudioId);
+                var filmStudio = _filmStudioDao.Get(movieMock.FilmStudioId);
+                if (filmStudio != null)
+                {
+                    movieMock.FilmStudio = filmStudio;
+                }
             }
 
             // Convert the Movie instance to a MovieDto instance
             var movieDto = new MovieDto
             {
-                Id = dataSource == "SQL" ? movieSql.Id : movieMock.Id,
-                Title = dataSource == "SQL" ? movieSql.Title : movieMock.Title,
-                ReleaseDate = dataSource == "SQL" ? movieSql.ReleaseDate : movieMock.ReleaseDate,
-                Price = dataSource == "SQL" ? movieSql.Price : movieMock.Price,
-                Genre = dataSource == "SQL" ? movieSql.Genre : movieMock.Genre,
-                Rating = dataSource == "SQL" ? movieSql.Rating : movieMock.Rating,
-                FilmStudioId = dataSource == "SQL" ? movieSql.FilmStudioId : movieMock.FilmStudioId,
+                Id = dataSource == "SQL" ? movieSql?.Id ?? default : movieMock?.Id ?? default,
+                Title = dataSource == "SQL" ? movieSql?.Title ?? default : movieMock?.Title ?? default,
+                ReleaseDate = dataSource == "SQL" ? movieSql?.ReleaseDate ?? default : movieMock?.ReleaseDate ?? default,
+                Price = dataSource == "SQL" ? movieSql?.Price ?? default : movieMock?.Price ?? default,
+                Genre = dataSource == "SQL" ? movieSql?.Genre ?? default : movieMock?.Genre ?? default,
+                Rating = dataSource == "SQL" ? movieSql?.Rating ?? default : movieMock?.Rating ?? default,
+                FilmStudioId = dataSource == "SQL" ? movieSql?.FilmStudioId ?? default : movieMock?.FilmStudioId ?? default,
                 FilmStudio = new FilmStudioDto
                 {
-                    Id = dataSource == "SQL" ? movieSql.FilmStudio.Id : movieMock.FilmStudio.Id,
-                    Name = dataSource == "SQL" ? movieSql.FilmStudio.Name : movieMock.FilmStudio.Name,
-                    Country = dataSource == "SQL" ? movieSql.FilmStudio.Country : movieMock.FilmStudio.Country,
-                    Movies = dataSource == "SQL" ? movieSql.FilmStudio.Movies.Select(m => new MovieDto
+                    Id = dataSource == "SQL" ? movieSql?.FilmStudio?.Id ?? default : movieMock?.FilmStudio?.Id ?? default,
+                    Name = dataSource == "SQL" ? movieSql?.FilmStudio?.Name ?? "" : movieMock?.FilmStudio?.Name ?? "",
+                    Country = dataSource == "SQL" ? movieSql?.FilmStudio?.Country ?? default : movieMock?.FilmStudio?.Country ?? default,
+                    Movies = dataSource == "SQL" ? movieSql?.FilmStudio?.Movies?.Select(m => new MovieDto
                     {
                         Id = m.Id,
                         Title = m.Title,
@@ -525,7 +565,7 @@ namespace FelczynskiDebski.MovieApp.UI.Controllers
                         Genre = m.Genre,
                         Rating = m.Rating,
                         FilmStudioId = m.FilmStudioId
-                    }).ToList() : movieMock.FilmStudio.Movies.Select(m => new MovieDto
+                    }).ToList() : movieMock?.FilmStudio.Movies?.Select(m => new MovieDto
                     {
                         Id = m.Id,
                         Title = m.Title,
@@ -565,9 +605,5 @@ namespace FelczynskiDebski.MovieApp.UI.Controllers
             return RedirectToAction(nameof(Index));
         }
 
-        private bool MovieExists(int id)
-        {
-            return _movieDao.Get(id) != null;
-        }
     }
 }
