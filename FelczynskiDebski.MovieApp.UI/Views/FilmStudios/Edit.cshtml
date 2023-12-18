@@ -1,0 +1,55 @@
+@using FelczynskiDebski.MovieApp.CORE.Models
+@model FelczynskiDebski.MovieApp.UI.DTOs.FilmStudioDto
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>FilmStudio</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Country" class="control-label"></label>
+                @Model.Country.ToString().PascalCaseToSentence()
+                <select asp-for="Country" class="form-control"
+                        asp-items="Html.GetEnumSelectList<FilmStudioCountry>()"></select>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<h3>Movies:</h3>
+<ul>
+    @if (Model.Movies != null)
+    {
+        foreach (var movie in Model.Movies)
+        {
+            <li>@movie.Title</li>
+        }
+    }
+</ul>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

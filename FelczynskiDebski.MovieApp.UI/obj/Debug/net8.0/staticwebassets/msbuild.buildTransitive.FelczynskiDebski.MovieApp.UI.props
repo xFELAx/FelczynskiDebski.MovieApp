@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\FelczynskiDebski.MovieApp.UI.props" />
+</Project>

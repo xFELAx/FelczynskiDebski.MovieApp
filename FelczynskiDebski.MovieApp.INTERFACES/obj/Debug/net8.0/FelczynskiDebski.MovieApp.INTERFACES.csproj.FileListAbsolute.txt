@@ -1,0 +1,15 @@
+H:\1studia\semestr7\PW\docelowe\FelczynskiDebski.MovieApp\FelczynskiDebski.MovieApp.INTERFACES\bin\Debug\net8.0\FelczynskiDebski.MovieApp.INTERFACES.deps.json
+H:\1studia\semestr7\PW\docelowe\FelczynskiDebski.MovieApp\FelczynskiDebski.MovieApp.INTERFACES\bin\Debug\net8.0\FelczynskiDebski.MovieApp.INTERFACES.dll
+H:\1studia\semestr7\PW\docelowe\FelczynskiDebski.MovieApp\FelczynskiDebski.MovieApp.INTERFACES\bin\Debug\net8.0\FelczynskiDebski.MovieApp.INTERFACES.pdb
+H:\1studia\semestr7\PW\docelowe\FelczynskiDebski.MovieApp\FelczynskiDebski.MovieApp.INTERFACES\bin\Debug\net8.0\FelczynskiDebski.MovieApp.CORE.dll
+H:\1studia\semestr7\PW\docelowe\FelczynskiDebski.MovieApp\FelczynskiDebski.MovieApp.INTERFACES\bin\Debug\net8.0\FelczynskiDebski.MovieApp.CORE.pdb
+H:\1studia\semestr7\PW\docelowe\FelczynskiDebski.MovieApp\FelczynskiDebski.MovieApp.INTERFACES\obj\Debug\net8.0\FelczynskiDebski.MovieApp.INTERFACES.csproj.AssemblyReference.cache
+H:\1studia\semestr7\PW\docelowe\FelczynskiDebski.MovieApp\FelczynskiDebski.MovieApp.INTERFACES\obj\Debug\net8.0\FelczynskiDebski.MovieApp.INTERFACES.GeneratedMSBuildEditorConfig.editorconfig
+H:\1studia\semestr7\PW\docelowe\FelczynskiDebski.MovieApp\FelczynskiDebski.MovieApp.INTERFACES\obj\Debug\net8.0\FelczynskiDebski.MovieApp.INTERFACES.AssemblyInfoInputs.cache
+H:\1studia\semestr7\PW\docelowe\FelczynskiDebski.MovieApp\FelczynskiDebski.MovieApp.INTERFACES\obj\Debug\net8.0\FelczynskiDebski.MovieApp.INTERFACES.AssemblyInfo.cs
+H:\1studia\semestr7\PW\docelowe\FelczynskiDebski.MovieApp\FelczynskiDebski.MovieApp.INTERFACES\obj\Debug\net8.0\FelczynskiDebski.MovieApp.INTERFACES.csproj.CoreCompileInputs.cache
+H:\1studia\semestr7\PW\docelowe\FelczynskiDebski.MovieApp\FelczynskiDebski.MovieApp.INTERFACES\obj\Debug\net8.0\FelczynskiDebski.MovieApp.INTERFACES.csproj.CopyComplete
+H:\1studia\semestr7\PW\docelowe\FelczynskiDebski.MovieApp\FelczynskiDebski.MovieApp.INTERFACES\obj\Debug\net8.0\FelczynskiDebski.MovieApp.INTERFACES.dll
+H:\1studia\semestr7\PW\docelowe\FelczynskiDebski.MovieApp\FelczynskiDebski.MovieApp.INTERFACES\obj\Debug\net8.0\refint\FelczynskiDebski.MovieApp.INTERFACES.dll
+H:\1studia\semestr7\PW\docelowe\FelczynskiDebski.MovieApp\FelczynskiDebski.MovieApp.INTERFACES\obj\Debug\net8.0\FelczynskiDebski.MovieApp.INTERFACES.pdb
+H:\1studia\semestr7\PW\docelowe\FelczynskiDebski.MovieApp\FelczynskiDebski.MovieApp.INTERFACES\obj\Debug\net8.0\ref\FelczynskiDebski.MovieApp.INTERFACES.dll

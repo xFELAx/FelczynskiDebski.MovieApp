@@ -1,0 +1,11 @@
+H:\1studia\semestr7\PW\docelowe\FelczynskiDebski.MovieApp\FelczynskiDebski.MovieApp.BL\bin\Debug\net8.0\FelczynskiDebski.MovieApp.BL.deps.json
+H:\1studia\semestr7\PW\docelowe\FelczynskiDebski.MovieApp\FelczynskiDebski.MovieApp.BL\bin\Debug\net8.0\FelczynskiDebski.MovieApp.BL.dll
+H:\1studia\semestr7\PW\docelowe\FelczynskiDebski.MovieApp\FelczynskiDebski.MovieApp.BL\bin\Debug\net8.0\FelczynskiDebski.MovieApp.BL.pdb
+H:\1studia\semestr7\PW\docelowe\FelczynskiDebski.MovieApp\FelczynskiDebski.MovieApp.BL\obj\Debug\net8.0\FelczynskiDebski.MovieApp.BL.GeneratedMSBuildEditorConfig.editorconfig
+H:\1studia\semestr7\PW\docelowe\FelczynskiDebski.MovieApp\FelczynskiDebski.MovieApp.BL\obj\Debug\net8.0\FelczynskiDebski.MovieApp.BL.AssemblyInfoInputs.cache
+H:\1studia\semestr7\PW\docelowe\FelczynskiDebski.MovieApp\FelczynskiDebski.MovieApp.BL\obj\Debug\net8.0\FelczynskiDebski.MovieApp.BL.AssemblyInfo.cs
+H:\1studia\semestr7\PW\docelowe\FelczynskiDebski.MovieApp\FelczynskiDebski.MovieApp.BL\obj\Debug\net8.0\FelczynskiDebski.MovieApp.BL.csproj.CoreCompileInputs.cache
+H:\1studia\semestr7\PW\docelowe\FelczynskiDebski.MovieApp\FelczynskiDebski.MovieApp.BL\obj\Debug\net8.0\FelczynskiDebski.MovieApp.BL.dll
+H:\1studia\semestr7\PW\docelowe\FelczynskiDebski.MovieApp\FelczynskiDebski.MovieApp.BL\obj\Debug\net8.0\refint\FelczynskiDebski.MovieApp.BL.dll
+H:\1studia\semestr7\PW\docelowe\FelczynskiDebski.MovieApp\FelczynskiDebski.MovieApp.BL\obj\Debug\net8.0\FelczynskiDebski.MovieApp.BL.pdb
+H:\1studia\semestr7\PW\docelowe\FelczynskiDebski.MovieApp\FelczynskiDebski.MovieApp.BL\obj\Debug\net8.0\ref\FelczynskiDebski.MovieApp.BL.dll

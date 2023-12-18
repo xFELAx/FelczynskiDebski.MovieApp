@@ -1,0 +1,77 @@
+@model FelczynskiDebski.MovieApp.UI.DTOs.FilmStudioCountryDtoViewModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<form asp-controller="FilmStudios" asp-action="Index" method="get">
+    <p>
+        Country: <select asp-for="SelectedCountry" asp-items="Model.Countries">
+            <option value="">All</option>
+        </select>
+        Film Studio Name: <input type="text" asp-for="SearchString" />
+        <input type="submit" value="Filter" />
+    </p>
+</form>
+<table class="table">
+    <caption>List of Film Studios</caption>
+    <thead>
+        @{
+            var firstFilmStudio = Model.FilmStudios?.FirstOrDefault();
+        }
+        @if (firstFilmStudio != null)
+        {
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => firstFilmStudio.Name)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => firstFilmStudio.Country)
+                </th>
+                <th>Movies</th>
+                <th></th>
+            </tr>
+        }
+    </thead>
+    <tbody>
+        @if (Model.FilmStudios != null)
+        {
+            @foreach (var item in Model.FilmStudios)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Name)
+                    </td>
+                    <td>
+                        @item.Country.ToString().PascalCaseToSentence()
+                    </td>
+                    <td>
+                        <ul>
+                            @if (item.Movies != null && item.Movies.Any())
+                            {
+                                <p>@item.Movies.Count() movies</p>
+                                foreach (var movie in item.Movies)
+                                {
+                                    <li>@movie.Title</li>
+                                }
+                            }
+                            else
+                            {
+                                <p>No movies</p>
+                            }
+                        </ul>
+                    </td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                        <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                        <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                    </td>
+                </tr>
+            }   }
+    </tbody>
+</table>
