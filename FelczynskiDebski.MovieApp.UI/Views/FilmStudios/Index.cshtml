@@ -54,7 +54,6 @@
                         <ul>
                             @if (item.Movies != null && item.Movies.Any())
                             {
-                                <p>@item.Movies.Count() movies</p>
                                 foreach (var movie in item.Movies)
                                 {
                                     <li>@movie.Title</li>
@@ -62,7 +61,7 @@
                             }
                             else
                             {
-                                <p>No movies</p>
+                                <li>No movies</li>
                             }
                         </ul>
                     </td>

@@ -45,7 +45,7 @@
             <div class="form-group">
                 <label asp-for="FilmStudioId" class="control-label">Film Studio</label>
                 <select asp-for="FilmStudioId" class="form-control"
-                    asp-items="@((SelectList)ViewData["FilmStudioId"])"></select>
+                        asp-items="@(ViewData["FilmStudioId"] as SelectList ?? new SelectList(new List<string>()))"></select>
             </div>
             <input type="hidden" asp-for="FilmStudio" />
             <div class="form-group">
