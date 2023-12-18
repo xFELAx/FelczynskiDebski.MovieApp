@@ -116,14 +116,13 @@ namespace FelczynskiDebski.MovieApp.UI.Controllers
 
             return View(filmStudioDto);
         }
-
-        // GET: FilmStudios/Details/5
-        public IActionResult Details(int? id)
+        private IActionResult GetFilmStudioView(int? id, string viewName)
         {
             if (id == null)
             {
                 return NotFound();
             }
+
             var filmStudio = _filmStudioDao.Get(id.Value);
             if (filmStudio == null)
             {
@@ -147,7 +146,13 @@ namespace FelczynskiDebski.MovieApp.UI.Controllers
                 }).ToList()
             };
 
-            return View(filmStudioDto);
+            return View(viewName, filmStudioDto);
+        }
+
+        // GET: FilmStudios/Details/5
+        public IActionResult Details(int? id)
+        {
+            return GetFilmStudioView(id, "Details");
         }
 
         // GET: FilmStudios/Create
@@ -217,7 +222,11 @@ namespace FelczynskiDebski.MovieApp.UI.Controllers
             else
             {
                 // If there are no such movies, preserve the Movies list of the old FilmStudio
-                oldFilmStudio.Movies = _filmStudioDao.Get(oldFilmStudio.Id).Movies.ToList();
+                var updatedFilmStudio = _filmStudioDao.Get(oldFilmStudio.Id);
+                if (updatedFilmStudio != null)
+                {
+                    oldFilmStudio.Movies = updatedFilmStudio.Movies.ToList();
+                }
             }
 
             _filmStudioDao.Update(oldFilmStudio);
@@ -228,36 +237,7 @@ namespace FelczynskiDebski.MovieApp.UI.Controllers
         // GET: FilmStudios/Delete/5
         public IActionResult Delete(int? id)
         {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var filmStudio = _filmStudioDao.Get(id.Value);
-            if (filmStudio == null)
-            {
-                return NotFound();
-            }
-
-            // Convert the FilmStudio instance to a FilmStudioDto instance
-            var filmStudioDto = new FilmStudioDto
-            {
-                Id = filmStudio.Id,
-                Name = filmStudio.Name,
-                Country = filmStudio.Country,
-                Movies = filmStudio.Movies.Select(m => new MovieDto
-                {
-                    Id = m.Id,
-                    Title = m.Title,
-                    ReleaseDate = m.ReleaseDate,
-                    Price = m.Price,
-                    Genre = m.Genre,
-                    Rating = m.Rating,
-                    FilmStudioId = m.FilmStudioId
-                }).ToList()
-            };
-
-            return View(filmStudioDto);
+            return GetFilmStudioView(id, "Delete");
         }
 
         // POST: FilmStudios/Delete/5
@@ -273,9 +253,6 @@ namespace FelczynskiDebski.MovieApp.UI.Controllers
             return RedirectToAction(nameof(Index));
         }
 
-        private bool FilmStudioExists(int id)
-        {
-            return _filmStudioDao.Get(id) != null;
-        }
+
     }
 }

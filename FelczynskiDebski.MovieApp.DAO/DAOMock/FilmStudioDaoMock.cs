@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using FelczynskiDebski.MovieApp.DAO.Models;
 using FelczynskiDebski.MovieApp.INTERFACES;
+using NuGet.Packaging;
 
 
 namespace FelczynskiDebski.MovieApp.DAO.DAOMock
@@ -49,14 +50,12 @@ namespace FelczynskiDebski.MovieApp.DAO.DAOMock
 
                 // Update the Movies list of the existing film studio
                 var moviesToUpdate = new List<IMovie>(((FilmStudio)filmStudio).Movies);
-                foreach (var movie in moviesToUpdate)
-                {
-                    var existingMovie = existingFilmStudio.Movies.FirstOrDefault(m => m.Id == movie.Id);
-                    if (existingMovie == null)
-                    {
-                        existingFilmStudio.Movies.Add(_movieDaoMock.Value.FindMovie(movie.Id));
-                    }
-                }
+
+                var newMovies = moviesToUpdate
+                    .Where(movie => !existingFilmStudio.Movies.Any(m => m.Id == movie.Id))
+                    .Select(movie => _movieDaoMock.Value.FindMovie(movie.Id));
+
+                existingFilmStudio.Movies.AddRange(newMovies);
             }
         }
         public void Delete(int id)

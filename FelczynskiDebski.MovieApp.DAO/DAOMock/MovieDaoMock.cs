@@ -59,7 +59,16 @@ namespace FelczynskiDebski.MovieApp.DAO.DAOMock
         }
         public Movie FindMovie(int id)
         {
-            return _movies.Find(m => m.Id == id);
+            var movie = _movies.Find(m => m.Id == id);
+            if (movie != null)
+            {
+                return movie;
+            }
+            else
+            {
+                // Handle the case where movie is null
+                throw new ArgumentException("Movie not found.");
+            }
         }
 
         public void Update(IMovie movie)
