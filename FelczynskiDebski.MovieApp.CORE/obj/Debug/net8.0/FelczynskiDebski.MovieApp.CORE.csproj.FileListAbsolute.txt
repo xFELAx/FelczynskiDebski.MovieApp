@@ -9,3 +9,4 @@ H:\1studia\semestr7\PW\docelowe\FelczynskiDebski.MovieApp\FelczynskiDebski.Movie
 H:\1studia\semestr7\PW\docelowe\FelczynskiDebski.MovieApp\FelczynskiDebski.MovieApp.CORE\obj\Debug\net8.0\refint\FelczynskiDebski.MovieApp.CORE.dll
 H:\1studia\semestr7\PW\docelowe\FelczynskiDebski.MovieApp\FelczynskiDebski.MovieApp.CORE\obj\Debug\net8.0\FelczynskiDebski.MovieApp.CORE.pdb
 H:\1studia\semestr7\PW\docelowe\FelczynskiDebski.MovieApp\FelczynskiDebski.MovieApp.CORE\obj\Debug\net8.0\ref\FelczynskiDebski.MovieApp.CORE.dll
+H:\1studia\semestr7\PW\docelowe\FelczynskiDebski.MovieApp\FelczynskiDebski.MovieApp.CORE\obj\Debug\net8.0\FelczynskiDebski.MovieApp.CORE.sourcelink.json

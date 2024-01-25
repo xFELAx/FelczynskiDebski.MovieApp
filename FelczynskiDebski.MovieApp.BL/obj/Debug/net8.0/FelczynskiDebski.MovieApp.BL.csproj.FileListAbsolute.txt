@@ -9,3 +9,14 @@ H:\1studia\semestr7\PW\docelowe\FelczynskiDebski.MovieApp\FelczynskiDebski.Movie
 H:\1studia\semestr7\PW\docelowe\FelczynskiDebski.MovieApp\FelczynskiDebski.MovieApp.BL\obj\Debug\net8.0\refint\FelczynskiDebski.MovieApp.BL.dll
 H:\1studia\semestr7\PW\docelowe\FelczynskiDebski.MovieApp\FelczynskiDebski.MovieApp.BL\obj\Debug\net8.0\FelczynskiDebski.MovieApp.BL.pdb
 H:\1studia\semestr7\PW\docelowe\FelczynskiDebski.MovieApp\FelczynskiDebski.MovieApp.BL\obj\Debug\net8.0\ref\FelczynskiDebski.MovieApp.BL.dll
+H:\1studia\semestr7\PW\docelowe\FelczynskiDebski.MovieApp\FelczynskiDebski.MovieApp.BL\bin\Debug\net8.0\FelczynskiDebski.MovieApp.BL.runtimeconfig.json
+H:\1studia\semestr7\PW\docelowe\FelczynskiDebski.MovieApp\FelczynskiDebski.MovieApp.BL\bin\Debug\net8.0\FelczynskiDebski.MovieApp.CORE.dll
+H:\1studia\semestr7\PW\docelowe\FelczynskiDebski.MovieApp\FelczynskiDebski.MovieApp.BL\bin\Debug\net8.0\FelczynskiDebski.MovieApp.DAO.dll
+H:\1studia\semestr7\PW\docelowe\FelczynskiDebski.MovieApp\FelczynskiDebski.MovieApp.BL\bin\Debug\net8.0\FelczynskiDebski.MovieApp.INTERFACES.dll
+H:\1studia\semestr7\PW\docelowe\FelczynskiDebski.MovieApp\FelczynskiDebski.MovieApp.BL\bin\Debug\net8.0\FelczynskiDebski.MovieApp.CORE.pdb
+H:\1studia\semestr7\PW\docelowe\FelczynskiDebski.MovieApp\FelczynskiDebski.MovieApp.BL\bin\Debug\net8.0\FelczynskiDebski.MovieApp.INTERFACES.pdb
+H:\1studia\semestr7\PW\docelowe\FelczynskiDebski.MovieApp\FelczynskiDebski.MovieApp.BL\bin\Debug\net8.0\FelczynskiDebski.MovieApp.DAO.pdb
+H:\1studia\semestr7\PW\docelowe\FelczynskiDebski.MovieApp\FelczynskiDebski.MovieApp.BL\obj\Debug\net8.0\FelczynskiDebski.MovieApp.BL.csproj.AssemblyReference.cache
+H:\1studia\semestr7\PW\docelowe\FelczynskiDebski.MovieApp\FelczynskiDebski.MovieApp.BL\obj\Debug\net8.0\FelczynskiDebski.MovieApp.BL.sourcelink.json
+H:\1studia\semestr7\PW\docelowe\FelczynskiDebski.MovieApp\FelczynskiDebski.MovieApp.BL\obj\Debug\net8.0\FelczynskiDebski.MovieApp.BL.csproj.CopyComplete
+H:\1studia\semestr7\PW\docelowe\FelczynskiDebski.MovieApp\FelczynskiDebski.MovieApp.BL\obj\Debug\net8.0\FelczynskiDebski.MovieApp.BL.genruntimeconfig.cache

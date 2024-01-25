@@ -6,7 +6,8 @@ using FelczynskiDebski.MovieApp.CORE.Models;
 using FelczynskiDebski.MovieApp.DAO;
 using FelczynskiDebski.MovieApp.DAO.Models;
 using FelczynskiDebski.MovieApp.INTERFACES;
-using FelczynskiDebski.MovieApp.UI.DTOs;
+using FelczynskiDebski.MovieApp.BL;
+using FelczynskiDebski.MovieApp.BL.Models;
 using FelczynskiDebski.MovieApp.UI.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -22,13 +23,16 @@ namespace FelczynskiDebski.MovieApp.UI.Controllers
         private readonly IFilmStudioDao _filmStudioDao;
 
         private readonly MvcMovieContext _context;
+        private readonly MovieService _movieService;
 
 
-        public MoviesController(IMovieDao movieDao, IFilmStudioDao filmStudioDao, MvcMovieContext context)
+        public MoviesController(IMovieDao movieDao, IFilmStudioDao filmStudioDao, MvcMovieContext context, MovieService movieService)
         {
             _movieDao = movieDao;
             _filmStudioDao = filmStudioDao;
             _context = context;
+
+            _movieService = movieService;
 
         }
 
@@ -45,70 +49,7 @@ namespace FelczynskiDebski.MovieApp.UI.Controllers
         // GET: Movies
         public IActionResult Index(MovieGenre? movieGenre, string searchString)
         {
-            // Use LINQ to get list of genres.
-            IQueryable<MovieGenre> genreQuery = _movieDao.GetAll().Select(m => m.Genre).Distinct().AsQueryable();
-            var genres = genreQuery.Distinct().ToList();
-
-            // Fetch the Movies based on the data source
-            var dataSource = HttpContext.Session.GetString("DataSource");
-            var movies = dataSource == "SQL"
-                ? _context.Movie.Include(m => m.FilmStudio).ToList()
-                : _movieDao.GetAll();
-
-            // Explicitly load the FilmStudio navigation property for each Movie
-            // Explicitly load the FilmStudio navigation property for each Movie
-            foreach (var movie in movies)
-            {
-                var filmStudio = _filmStudioDao.Get(movie.FilmStudioId);
-                if (filmStudio != null)
-                {
-                    movie.FilmStudio = filmStudio;
-                }
-            }
-
-
-            if (!string.IsNullOrEmpty(searchString))
-            {
-                movies = movies.Where(s => s.Title!.Contains(searchString)).ToList();
-            }
-
-            if (movieGenre != null)
-            {
-                movies = movies.Where(x => x.Genre == movieGenre).ToList();
-            }
-
-            var movieGenreVM = new MovieGenreDtoViewModel
-            {
-                Genres = new SelectList(genres),
-                Movies = movies.Where(m => m != null).Select(m => new MovieDto
-                {
-                    Id = m.Id,
-                    Title = m.Title,
-                    ReleaseDate = m.ReleaseDate,
-                    Price = m.Price,
-                    Genre = m.Genre,
-                    Rating = m.Rating,
-                    FilmStudioId = m.FilmStudioId,
-                    FilmStudio = m.FilmStudio == null ? null : new FilmStudioDto
-                    {
-                        Id = m.FilmStudio.Id,
-                        Name = m.FilmStudio.Name,
-                        Country = m.FilmStudio.Country,
-                        Movies = m.FilmStudio.Movies.Select(fm => new MovieDto
-                        {
-                            Id = fm.Id,
-                            Title = fm.Title,
-                            ReleaseDate = fm.ReleaseDate,
-                            Price = fm.Price,
-                            Genre = fm.Genre,
-                            Rating = fm.Rating,
-                            FilmStudioId = fm.FilmStudioId
-                        }).ToList()
-                    }
-                }).ToList()
-            };
-
-            return View(movieGenreVM);
+            return View(_movieService.Index(movieGenre, searchString, HttpContext.Session.GetString("DataSource")));
         }
 
 

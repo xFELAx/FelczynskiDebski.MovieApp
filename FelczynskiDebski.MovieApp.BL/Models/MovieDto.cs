@@ -1,9 +1,8 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using FelczynskiDebski.MovieApp.CORE.Models;
-using FelczynskiDebski.MovieApp.INTERFACES;
 
-namespace FelczynskiDebski.MovieApp.UI.DTOs;
+namespace FelczynskiDebski.MovieApp.BL.Models;
 
 public class MovieDto
 {

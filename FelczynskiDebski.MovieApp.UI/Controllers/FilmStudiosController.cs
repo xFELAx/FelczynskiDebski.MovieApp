@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using FelczynskiDebski.MovieApp.CORE.Models;
 using FelczynskiDebski.MovieApp.DAO.Models;
 using FelczynskiDebski.MovieApp.INTERFACES;
-using FelczynskiDebski.MovieApp.UI.DTOs;
+using FelczynskiDebski.MovieApp.BL.Models;
 using FelczynskiDebski.MovieApp.UI.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;

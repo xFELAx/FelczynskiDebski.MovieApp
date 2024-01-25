@@ -2,7 +2,7 @@
 using System.ComponentModel;
 using FelczynskiDebski.MovieApp.CORE.Models;
 
-namespace FelczynskiDebski.MovieApp.UI.DTOs;
+namespace FelczynskiDebski.MovieApp.BL.Models;
 
 public class FilmStudioDto
 {

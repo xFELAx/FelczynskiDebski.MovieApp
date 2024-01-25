@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc.Rendering;
 
-namespace FelczynskiDebski.MovieApp.UI.DTOs;
+namespace FelczynskiDebski.MovieApp.BL.Models;
 
 public class MovieGenreDtoViewModel
 {

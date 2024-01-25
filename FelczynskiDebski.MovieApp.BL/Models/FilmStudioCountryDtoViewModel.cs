@@ -1,6 +1,7 @@
-﻿using Microsoft.AspNetCore.Mvc.Rendering;
+﻿using FelczynskiDebski.MovieApp.BL.Models;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
-namespace FelczynskiDebski.MovieApp.UI.DTOs;
+namespace FelczynskiDebski.MovieApp.BL.Models;
 
 public class FilmStudioCountryDtoViewModel
 {

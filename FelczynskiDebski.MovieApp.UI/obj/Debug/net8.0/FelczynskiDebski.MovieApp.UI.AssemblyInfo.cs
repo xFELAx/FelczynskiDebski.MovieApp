@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FelczynskiDebski.MovieApp.UI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ea96af8cc5fd9e4587866427f7a8079acd42afe8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c8d8ece5c67e9b77b5fe82fa2d19a96b9e1e2f47")]
 [assembly: System.Reflection.AssemblyProductAttribute("FelczynskiDebski.MovieApp.UI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FelczynskiDebski.MovieApp.UI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,3 +1,4 @@
+using FelczynskiDebski.MovieApp.BL;
 using FelczynskiDebski.MovieApp.DAO;
 using FelczynskiDebski.MovieApp.DAO.DAOMock;
 using FelczynskiDebski.MovieApp.DAO.DAOSQL;
@@ -68,6 +69,8 @@ builder.Services.AddSession();
 builder.Services.AddHttpContextAccessor();
 // Add DAOs to DI container
 builder.Services.AddScoped<MovieDaoSql>();
+
+builder.Services.AddScoped<MovieService>();
 
 var app = builder.Build();
 

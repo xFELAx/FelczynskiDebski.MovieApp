@@ -24,6 +24,7 @@
   <ItemGroup>
     <ProjectReference Include="..\FelczynskiDebski.MovieApp.DAO\FelczynskiDebski.MovieApp.DAO.csproj" />
     <ProjectReference Include="..\FelczynskiDebski.MovieApp.INTERFACES\FelczynskiDebski.MovieApp.INTERFACES.csproj" />
+	<ProjectReference Include="..\FelczynskiDebski.MovieApp.BL\FelczynskiDebski.MovieApp.BL.csproj" />
   </ItemGroup>
 
 </Project>

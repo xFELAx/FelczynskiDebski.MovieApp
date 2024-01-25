@@ -2965,6 +2965,25 @@
           }
         }
       },
+      "FelczynskiDebski.MovieApp.BL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "FelczynskiDebski.MovieApp.CORE": "1.0.0",
+          "FelczynskiDebski.MovieApp.DAO": "1.0.0",
+          "FelczynskiDebski.MovieApp.INTERFACES": "1.0.0",
+          "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "8.0.0",
+          "Microsoft.EntityFrameworkCore.SQLite": "8.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.0",
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "8.0.0"
+        },
+        "compile": {
+          "bin/placeholder/FelczynskiDebski.MovieApp.BL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FelczynskiDebski.MovieApp.BL.dll": {}
+        }
+      },
       "FelczynskiDebski.MovieApp.CORE/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -8151,6 +8170,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "FelczynskiDebski.MovieApp.BL/1.0.0": {
+      "type": "project",
+      "path": "../FelczynskiDebski.MovieApp.BL/FelczynskiDebski.MovieApp.BL.csproj",
+      "msbuildProject": "../FelczynskiDebski.MovieApp.BL/FelczynskiDebski.MovieApp.BL.csproj"
+    },
     "FelczynskiDebski.MovieApp.CORE/1.0.0": {
       "type": "project",
       "path": "../FelczynskiDebski.MovieApp.CORE/FelczynskiDebski.MovieApp.CORE.csproj",
@@ -8169,6 +8193,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "FelczynskiDebski.MovieApp.BL >= 1.0.0",
       "FelczynskiDebski.MovieApp.DAO >= 1.0.0",
       "FelczynskiDebski.MovieApp.INTERFACES >= 1.0.0",
       "Microsoft.AspNetCore.Mvc.NewtonsoftJson >= 8.0.0",
@@ -8212,6 +8237,9 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
+            "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.BL\\FelczynskiDebski.MovieApp.BL.csproj": {
+              "projectPath": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.BL\\FelczynskiDebski.MovieApp.BL.csproj"
+            },
             "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.DAO\\FelczynskiDebski.MovieApp.DAO.csproj": {
               "projectPath": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.DAO\\FelczynskiDebski.MovieApp.DAO.csproj"
             },
@@ -8279,7 +8307,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

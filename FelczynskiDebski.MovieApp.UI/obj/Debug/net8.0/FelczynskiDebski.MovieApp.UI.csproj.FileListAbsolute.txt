@@ -283,3 +283,6 @@ H:\1studia\semestr7\PW\docelowe\FelczynskiDebski.MovieApp\FelczynskiDebski.Movie
 H:\1studia\semestr7\PW\docelowe\FelczynskiDebski.MovieApp\FelczynskiDebski.MovieApp.UI\obj\Debug\net8.0\FelczynskiDebski.MovieApp.UI.genruntimeconfig.cache
 H:\1studia\semestr7\PW\docelowe\FelczynskiDebski.MovieApp\FelczynskiDebski.MovieApp.UI\obj\Debug\net8.0\ref\FelczynskiDebski.MovieApp.UI.dll
 H:\1studia\semestr7\PW\docelowe\FelczynskiDebski.MovieApp\FelczynskiDebski.MovieApp.UI\obj\Debug\net8.0\FelczynskiDebski.MovieApp.UI.sourcelink.json
+H:\1studia\semestr7\PW\docelowe\FelczynskiDebski.MovieApp\FelczynskiDebski.MovieApp.UI\obj\Debug\net8.0\FelczynskiDebski.MovieApp.UI.MvcApplicationPartsAssemblyInfo.cs
+H:\1studia\semestr7\PW\docelowe\FelczynskiDebski.MovieApp\FelczynskiDebski.MovieApp.UI\bin\Debug\net8.0\FelczynskiDebski.MovieApp.BL.dll
+H:\1studia\semestr7\PW\docelowe\FelczynskiDebski.MovieApp\FelczynskiDebski.MovieApp.UI\bin\Debug\net8.0\FelczynskiDebski.MovieApp.BL.pdb
