@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lvfcf1Z0tV/nEJkCOtdIW9zdQpjY70sywVFzN2HTUPiHneQa4414tPsyioPPKmO7TOE9cyYANGqeYr8upZKomA==",
+  "dgSpecHash": "fa5jglGmWdqPnVo5zVGfI6d2b+0TnuFNSglNLNIS35RSLybNMpBqbTy/2xF1UPONxykfFxnB2Es7NbodZ54lhw==",
   "success": true,
-  "projectFilePath": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.BL\\FelczynskiDebski.MovieApp.BL.csproj",
+  "projectFilePath": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.BL\\FelczynskiDebski.MovieApp.BL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mifel\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\mifel\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

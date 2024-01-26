@@ -71,6 +71,7 @@ builder.Services.AddHttpContextAccessor();
 builder.Services.AddScoped<MovieDaoSql>();
 
 builder.Services.AddScoped<MovieService>();
+builder.Services.AddScoped<FilmStudioService>();
 
 var app = builder.Build();
 

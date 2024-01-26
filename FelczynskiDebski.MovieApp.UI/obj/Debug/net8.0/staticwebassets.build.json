@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "d+XJPetoa0Mmz6o4MehrNF9KGQfeeKr2USJ8tL2GRn4=",
+  "Hash": "iYrh4+sMXK6vcxiSr9q4UElsvOWqBSRciHoSJKjKUDE=",
   "Source": "FelczynskiDebski.MovieApp.UI",
   "BasePath": "_content/FelczynskiDebski.MovieApp.UI",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "FelczynskiDebski.MovieApp.UI\\wwwroot",
       "Source": "FelczynskiDebski.MovieApp.UI",
-      "ContentRoot": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
       "BasePath": "_content/FelczynskiDebski.MovieApp.UI",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\obj\\Debug\\net8.0\\scopedcss\\bundle\\FelczynskiDebski.MovieApp.UI.styles.css",
+      "Identity": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\obj\\Debug\\net8.0\\scopedcss\\bundle\\FelczynskiDebski.MovieApp.UI.styles.css",
       "SourceId": "FelczynskiDebski.MovieApp.UI",
       "SourceType": "Computed",
-      "ContentRoot": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/FelczynskiDebski.MovieApp.UI",
       "RelativePath": "FelczynskiDebski.MovieApp.UI.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\obj\\Debug\\net8.0\\scopedcss\\bundle\\FelczynskiDebski.MovieApp.UI.styles.css"
+      "OriginalItemSpec": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\obj\\Debug\\net8.0\\scopedcss\\bundle\\FelczynskiDebski.MovieApp.UI.styles.css"
     },
     {
-      "Identity": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\FelczynskiDebski.MovieApp.UI.bundle.scp.css",
+      "Identity": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\FelczynskiDebski.MovieApp.UI.bundle.scp.css",
       "SourceId": "FelczynskiDebski.MovieApp.UI",
       "SourceType": "Computed",
-      "ContentRoot": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/FelczynskiDebski.MovieApp.UI",
       "RelativePath": "FelczynskiDebski.MovieApp.UI.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\FelczynskiDebski.MovieApp.UI.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\FelczynskiDebski.MovieApp.UI.bundle.scp.css"
     },
     {
-      "Identity": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\css\\site.css",
       "SourceId": "FelczynskiDebski.MovieApp.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
       "BasePath": "_content/FelczynskiDebski.MovieApp.UI",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\favicon.ico",
       "SourceId": "FelczynskiDebski.MovieApp.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
       "BasePath": "_content/FelczynskiDebski.MovieApp.UI",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\js\\site.js",
       "SourceId": "FelczynskiDebski.MovieApp.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
       "BasePath": "_content/FelczynskiDebski.MovieApp.UI",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "FelczynskiDebski.MovieApp.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
       "BasePath": "_content/FelczynskiDebski.MovieApp.UI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "FelczynskiDebski.MovieApp.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
       "BasePath": "_content/FelczynskiDebski.MovieApp.UI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "FelczynskiDebski.MovieApp.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
       "BasePath": "_content/FelczynskiDebski.MovieApp.UI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -169,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "FelczynskiDebski.MovieApp.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
       "BasePath": "_content/FelczynskiDebski.MovieApp.UI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -188,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "FelczynskiDebski.MovieApp.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
       "BasePath": "_content/FelczynskiDebski.MovieApp.UI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -207,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "FelczynskiDebski.MovieApp.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
       "BasePath": "_content/FelczynskiDebski.MovieApp.UI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -226,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "FelczynskiDebski.MovieApp.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
       "BasePath": "_content/FelczynskiDebski.MovieApp.UI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -245,10 +245,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "FelczynskiDebski.MovieApp.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
       "BasePath": "_content/FelczynskiDebski.MovieApp.UI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -264,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "FelczynskiDebski.MovieApp.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
       "BasePath": "_content/FelczynskiDebski.MovieApp.UI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -283,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "FelczynskiDebski.MovieApp.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
       "BasePath": "_content/FelczynskiDebski.MovieApp.UI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -302,10 +302,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "FelczynskiDebski.MovieApp.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
       "BasePath": "_content/FelczynskiDebski.MovieApp.UI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -321,10 +321,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "FelczynskiDebski.MovieApp.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
       "BasePath": "_content/FelczynskiDebski.MovieApp.UI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "FelczynskiDebski.MovieApp.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
       "BasePath": "_content/FelczynskiDebski.MovieApp.UI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -359,10 +359,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "FelczynskiDebski.MovieApp.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
       "BasePath": "_content/FelczynskiDebski.MovieApp.UI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -378,10 +378,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "FelczynskiDebski.MovieApp.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
       "BasePath": "_content/FelczynskiDebski.MovieApp.UI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -397,10 +397,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "FelczynskiDebski.MovieApp.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
       "BasePath": "_content/FelczynskiDebski.MovieApp.UI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -416,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "FelczynskiDebski.MovieApp.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
       "BasePath": "_content/FelczynskiDebski.MovieApp.UI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -435,10 +435,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "FelczynskiDebski.MovieApp.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
       "BasePath": "_content/FelczynskiDebski.MovieApp.UI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -454,10 +454,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "FelczynskiDebski.MovieApp.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
       "BasePath": "_content/FelczynskiDebski.MovieApp.UI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -473,10 +473,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "FelczynskiDebski.MovieApp.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
       "BasePath": "_content/FelczynskiDebski.MovieApp.UI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -492,10 +492,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "FelczynskiDebski.MovieApp.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
       "BasePath": "_content/FelczynskiDebski.MovieApp.UI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -511,10 +511,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "FelczynskiDebski.MovieApp.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
       "BasePath": "_content/FelczynskiDebski.MovieApp.UI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -530,10 +530,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "FelczynskiDebski.MovieApp.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
       "BasePath": "_content/FelczynskiDebski.MovieApp.UI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -549,10 +549,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "FelczynskiDebski.MovieApp.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
       "BasePath": "_content/FelczynskiDebski.MovieApp.UI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -568,10 +568,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "FelczynskiDebski.MovieApp.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
       "BasePath": "_content/FelczynskiDebski.MovieApp.UI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -587,10 +587,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "FelczynskiDebski.MovieApp.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
       "BasePath": "_content/FelczynskiDebski.MovieApp.UI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -606,10 +606,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "FelczynskiDebski.MovieApp.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
       "BasePath": "_content/FelczynskiDebski.MovieApp.UI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -625,10 +625,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "FelczynskiDebski.MovieApp.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
       "BasePath": "_content/FelczynskiDebski.MovieApp.UI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -644,10 +644,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "FelczynskiDebski.MovieApp.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
       "BasePath": "_content/FelczynskiDebski.MovieApp.UI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "FelczynskiDebski.MovieApp.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
       "BasePath": "_content/FelczynskiDebski.MovieApp.UI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -682,10 +682,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "FelczynskiDebski.MovieApp.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
       "BasePath": "_content/FelczynskiDebski.MovieApp.UI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -701,10 +701,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "FelczynskiDebski.MovieApp.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
       "BasePath": "_content/FelczynskiDebski.MovieApp.UI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -720,10 +720,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "FelczynskiDebski.MovieApp.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
       "BasePath": "_content/FelczynskiDebski.MovieApp.UI",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -739,10 +739,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "FelczynskiDebski.MovieApp.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
       "BasePath": "_content/FelczynskiDebski.MovieApp.UI",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -758,10 +758,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "FelczynskiDebski.MovieApp.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
       "BasePath": "_content/FelczynskiDebski.MovieApp.UI",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -777,10 +777,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "FelczynskiDebski.MovieApp.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
       "BasePath": "_content/FelczynskiDebski.MovieApp.UI",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -796,10 +796,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "FelczynskiDebski.MovieApp.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
       "BasePath": "_content/FelczynskiDebski.MovieApp.UI",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -815,10 +815,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "FelczynskiDebski.MovieApp.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
       "BasePath": "_content/FelczynskiDebski.MovieApp.UI",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -834,10 +834,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "FelczynskiDebski.MovieApp.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
       "BasePath": "_content/FelczynskiDebski.MovieApp.UI",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -853,10 +853,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "FelczynskiDebski.MovieApp.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
       "BasePath": "_content/FelczynskiDebski.MovieApp.UI",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -872,10 +872,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "FelczynskiDebski.MovieApp.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
       "BasePath": "_content/FelczynskiDebski.MovieApp.UI",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -891,10 +891,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "FelczynskiDebski.MovieApp.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
       "BasePath": "_content/FelczynskiDebski.MovieApp.UI",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -910,10 +910,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "FelczynskiDebski.MovieApp.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
       "BasePath": "_content/FelczynskiDebski.MovieApp.UI",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -929,10 +929,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "FelczynskiDebski.MovieApp.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
       "BasePath": "_content/FelczynskiDebski.MovieApp.UI",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -948,10 +948,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "FelczynskiDebski.MovieApp.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
       "BasePath": "_content/FelczynskiDebski.MovieApp.UI",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -967,10 +967,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "FelczynskiDebski.MovieApp.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
       "BasePath": "_content/FelczynskiDebski.MovieApp.UI",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -986,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "FelczynskiDebski.MovieApp.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
       "BasePath": "_content/FelczynskiDebski.MovieApp.UI",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1005,10 +1005,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "FelczynskiDebski.MovieApp.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
       "BasePath": "_content/FelczynskiDebski.MovieApp.UI",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1024,10 +1024,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "FelczynskiDebski.MovieApp.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
       "BasePath": "_content/FelczynskiDebski.MovieApp.UI",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -1043,10 +1043,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "FelczynskiDebski.MovieApp.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
       "BasePath": "_content/FelczynskiDebski.MovieApp.UI",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -1062,10 +1062,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "FelczynskiDebski.MovieApp.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
       "BasePath": "_content/FelczynskiDebski.MovieApp.UI",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -1081,10 +1081,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "FelczynskiDebski.MovieApp.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
       "BasePath": "_content/FelczynskiDebski.MovieApp.UI",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1100,10 +1100,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "FelczynskiDebski.MovieApp.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
       "BasePath": "_content/FelczynskiDebski.MovieApp.UI",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1119,10 +1119,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "FelczynskiDebski.MovieApp.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
       "BasePath": "_content/FelczynskiDebski.MovieApp.UI",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1138,10 +1138,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "FelczynskiDebski.MovieApp.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
       "BasePath": "_content/FelczynskiDebski.MovieApp.UI",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1157,10 +1157,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "FelczynskiDebski.MovieApp.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
       "BasePath": "_content/FelczynskiDebski.MovieApp.UI",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1176,10 +1176,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "FelczynskiDebski.MovieApp.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.UI\\wwwroot\\",
       "BasePath": "_content/FelczynskiDebski.MovieApp.UI",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",

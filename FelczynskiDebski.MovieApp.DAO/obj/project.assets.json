@@ -8163,11 +8163,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.DAO\\FelczynskiDebski.MovieApp.DAO.csproj",
+      "projectUniqueName": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.DAO\\FelczynskiDebski.MovieApp.DAO.csproj",
       "projectName": "FelczynskiDebski.MovieApp.DAO",
-      "projectPath": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.DAO\\FelczynskiDebski.MovieApp.DAO.csproj",
+      "projectPath": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.DAO\\FelczynskiDebski.MovieApp.DAO.csproj",
       "packagesPath": "C:\\Users\\mifel\\.nuget\\packages\\",
-      "outputPath": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.DAO\\obj\\",
+      "outputPath": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.DAO\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -8182,18 +8182,17 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.CORE\\FelczynskiDebski.MovieApp.CORE.csproj": {
-              "projectPath": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.CORE\\FelczynskiDebski.MovieApp.CORE.csproj"
+            "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.CORE\\FelczynskiDebski.MovieApp.CORE.csproj": {
+              "projectPath": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.CORE\\FelczynskiDebski.MovieApp.CORE.csproj"
             },
-            "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.INTERFACES\\FelczynskiDebski.MovieApp.INTERFACES.csproj": {
-              "projectPath": "H:\\1studia\\semestr7\\PW\\docelowe\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.INTERFACES\\FelczynskiDebski.MovieApp.INTERFACES.csproj"
+            "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.INTERFACES\\FelczynskiDebski.MovieApp.INTERFACES.csproj": {
+              "projectPath": "C:\\Users\\mifel\\Desktop\\pw\\git\\FelczynskiDebski.MovieApp\\FelczynskiDebski.MovieApp.INTERFACES\\FelczynskiDebski.MovieApp.INTERFACES.csproj"
             }
           }
         }

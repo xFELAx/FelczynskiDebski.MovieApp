@@ -2,10 +2,12 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using FelczynskiDebski.MovieApp.BL;
+using FelczynskiDebski.MovieApp.BL.Models;
+using FelczynskiDebski.MovieApp.CORE;
 using FelczynskiDebski.MovieApp.CORE.Models;
 using FelczynskiDebski.MovieApp.DAO.Models;
 using FelczynskiDebski.MovieApp.INTERFACES;
-using FelczynskiDebski.MovieApp.BL.Models;
 using FelczynskiDebski.MovieApp.UI.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -18,11 +20,17 @@ namespace FelczynskiDebski.MovieApp.UI.Controllers
     {
         private readonly IFilmStudioDao _filmStudioDao;
         private readonly IMovieDao _movieDao;
+        private readonly FilmStudioService _filmStudioService;
 
-        public FilmStudiosController(IFilmStudioDao filmStudioDao, IMovieDao movieDao)
+        public FilmStudiosController(
+            IFilmStudioDao filmStudioDao,
+            IMovieDao movieDao,
+            FilmStudioService filmStudioService
+        )
         {
             _filmStudioDao = filmStudioDao;
             _movieDao = movieDao;
+            _filmStudioService = filmStudioService;
         }
 
         [HttpPost]
@@ -37,85 +45,20 @@ namespace FelczynskiDebski.MovieApp.UI.Controllers
 
         public IActionResult Index(string searchString, FilmStudioCountry? selectedCountry)
         {
-            var filmStudios = _filmStudioDao.GetAll().AsQueryable();
-
-            // Get list of countries
-            var countryList = Enum.GetValues(typeof(FilmStudioCountry)).Cast<FilmStudioCountry>().Select(c => new SelectListItem { Value = c.ToString(), Text = c.ToString().PascalCaseToSentence() }).ToList();
-            var countries = new SelectList(countryList, "Value", "Text");
-
-            if (!String.IsNullOrEmpty(searchString))
-            {
-                filmStudios = filmStudios.Where(fs => fs.Name != null && fs.Name.Contains(searchString));
-            }
-
-            if (selectedCountry.HasValue)
-            {
-                filmStudios = filmStudios.Where(fs => fs.Country == selectedCountry.Value);
-            }
-
-            var viewModel = new FilmStudioCountryDtoViewModel
-            {
-                SelectedCountry = selectedCountry?.ToString(),
-                SearchString = searchString,
-                FilmStudios = filmStudios.Select(fs => new FilmStudioDto
-                {
-                    Id = fs.Id,
-                    Name = fs.Name,
-                    Country = fs.Country,
-                    Movies = fs.Movies.Select(m => new MovieDto
-                    {
-                        Id = m.Id,
-                        Title = m.Title,
-                        ReleaseDate = m.ReleaseDate,
-                        Price = m.Price,
-                        Genre = m.Genre,
-                        Rating = m.Rating,
-                        FilmStudioId = m.FilmStudioId
-                    }).ToList()
-                }).ToList(),
-                Countries = countries
-            };
-
-            return View(viewModel);
-        }
-        private IFilmStudio? GetFilmStudioById(int? id)
-        {
-            if (id == null)
-            {
-                return null;
-            }
-
-            return _filmStudioDao.Get(id.Value);
+            return View(_filmStudioService.Index(searchString, selectedCountry));
         }
 
         private IActionResult GetFilmStudioView(int? id)
         {
-            var filmStudio = GetFilmStudioById(id);
+            var filmStudio = _filmStudioService.GetFilmStudioView(id);
             if (filmStudio == null)
             {
                 return NotFound();
             }
 
-            // Convert the FilmStudio instance to a FilmStudioDto instance
-            var filmStudioDto = new FilmStudioDto
-            {
-                Id = filmStudio.Id,
-                Name = filmStudio.Name,
-                Country = filmStudio.Country,
-                Movies = filmStudio.Movies.Select(m => new MovieDto
-                {
-                    Id = m.Id,
-                    Title = m.Title,
-                    ReleaseDate = m.ReleaseDate,
-                    Price = m.Price,
-                    Genre = m.Genre,
-                    Rating = m.Rating,
-                    FilmStudioId = m.FilmStudioId
-                }).ToList()
-            };
-
-            return View(filmStudioDto);
+            return View(filmStudio);
         }
+
         private IActionResult GetFilmStudioView(int? id, string viewName)
         {
             if (id == null)
@@ -123,28 +66,11 @@ namespace FelczynskiDebski.MovieApp.UI.Controllers
                 return NotFound();
             }
 
-            var filmStudio = _filmStudioDao.Get(id.Value);
-            if (filmStudio == null)
+            var filmStudioDto = _filmStudioService.GetFilmStudioViewTwo(id);
+            if (filmStudioDto == null)
             {
                 return NotFound();
             }
-
-            var filmStudioDto = new FilmStudioDto
-            {
-                Id = filmStudio.Id,
-                Name = filmStudio.Name,
-                Country = filmStudio.Country,
-                Movies = filmStudio.Movies.Select(m => new MovieDto
-                {
-                    Id = m.Id,
-                    Title = m.Title,
-                    ReleaseDate = m.ReleaseDate,
-                    Price = m.Price,
-                    Genre = m.Genre,
-                    Rating = m.Rating,
-                    FilmStudioId = m.FilmStudioId
-                }).ToList()
-            };
 
             return View(viewName, filmStudioDto);
         }
@@ -170,10 +96,15 @@ namespace FelczynskiDebski.MovieApp.UI.Controllers
             {
                 try
                 {
-                    var existingFilmStudio = _filmStudioDao.GetAll().FirstOrDefault(fs => fs.Name == filmStudio.Name);
+                    var existingFilmStudio = _filmStudioDao
+                        .GetAll()
+                        .FirstOrDefault(fs => fs.Name == filmStudio.Name);
                     if (existingFilmStudio != null)
                     {
-                        ModelState.AddModelError("", "A film studio with the same name already exists.");
+                        ModelState.AddModelError(
+                            "",
+                            "A film studio with the same name already exists."
+                        );
                         return View(filmStudio);
                     }
 
@@ -188,13 +119,12 @@ namespace FelczynskiDebski.MovieApp.UI.Controllers
             return View(filmStudio);
         }
 
-
-
         // GET: FilmStudios/Edit/5
         public IActionResult Edit(int? id)
         {
             return GetFilmStudioView(id);
         }
+
         // POST: FilmStudios/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -245,14 +175,8 @@ namespace FelczynskiDebski.MovieApp.UI.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult DeleteConfirmed(int id)
         {
-            var filmStudio = _filmStudioDao.Get(id);
-            if (filmStudio != null)
-            {
-                _filmStudioDao.Delete(id);
-            }
+            _filmStudioService.DeletePost(id);
             return RedirectToAction(nameof(Index));
         }
-
-
     }
 }

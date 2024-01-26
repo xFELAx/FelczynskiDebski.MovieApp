@@ -17,71 +17,71 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = FelczynskiDebski.MovieApp.UI
 build_property.RootNamespace = FelczynskiDebski.MovieApp.UI
-build_property.ProjectDir = H:\1studia\semestr7\PW\docelowe\FelczynskiDebski.MovieApp\FelczynskiDebski.MovieApp.UI\
+build_property.ProjectDir = C:\Users\mifel\Desktop\pw\git\FelczynskiDebski.MovieApp\FelczynskiDebski.MovieApp.UI\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = H:\1studia\semestr7\PW\docelowe\FelczynskiDebski.MovieApp\FelczynskiDebski.MovieApp.UI
+build_property.MSBuildProjectDirectory = C:\Users\mifel\Desktop\pw\git\FelczynskiDebski.MovieApp\FelczynskiDebski.MovieApp.UI
 build_property._RazorSourceGeneratorDebug = 
 
-[H:/1studia/semestr7/PW/docelowe/FelczynskiDebski.MovieApp/FelczynskiDebski.MovieApp.UI/Views/FilmStudios/Create.cshtml]
+[C:/Users/mifel/Desktop/pw/git/FelczynskiDebski.MovieApp/FelczynskiDebski.MovieApp.UI/Views/FilmStudios/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsbVN0dWRpb3NcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/1studia/semestr7/PW/docelowe/FelczynskiDebski.MovieApp/FelczynskiDebski.MovieApp.UI/Views/FilmStudios/Delete.cshtml]
+[C:/Users/mifel/Desktop/pw/git/FelczynskiDebski.MovieApp/FelczynskiDebski.MovieApp.UI/Views/FilmStudios/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsbVN0dWRpb3NcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/1studia/semestr7/PW/docelowe/FelczynskiDebski.MovieApp/FelczynskiDebski.MovieApp.UI/Views/FilmStudios/Details.cshtml]
+[C:/Users/mifel/Desktop/pw/git/FelczynskiDebski.MovieApp/FelczynskiDebski.MovieApp.UI/Views/FilmStudios/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsbVN0dWRpb3NcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/1studia/semestr7/PW/docelowe/FelczynskiDebski.MovieApp/FelczynskiDebski.MovieApp.UI/Views/FilmStudios/Edit.cshtml]
+[C:/Users/mifel/Desktop/pw/git/FelczynskiDebski.MovieApp/FelczynskiDebski.MovieApp.UI/Views/FilmStudios/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsbVN0dWRpb3NcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/1studia/semestr7/PW/docelowe/FelczynskiDebski.MovieApp/FelczynskiDebski.MovieApp.UI/Views/FilmStudios/Index.cshtml]
+[C:/Users/mifel/Desktop/pw/git/FelczynskiDebski.MovieApp/FelczynskiDebski.MovieApp.UI/Views/FilmStudios/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsbVN0dWRpb3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/1studia/semestr7/PW/docelowe/FelczynskiDebski.MovieApp/FelczynskiDebski.MovieApp.UI/Views/Movies/Create.cshtml]
+[C:/Users/mifel/Desktop/pw/git/FelczynskiDebski.MovieApp/FelczynskiDebski.MovieApp.UI/Views/Movies/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/1studia/semestr7/PW/docelowe/FelczynskiDebski.MovieApp/FelczynskiDebski.MovieApp.UI/Views/Movies/Delete.cshtml]
+[C:/Users/mifel/Desktop/pw/git/FelczynskiDebski.MovieApp/FelczynskiDebski.MovieApp.UI/Views/Movies/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/1studia/semestr7/PW/docelowe/FelczynskiDebski.MovieApp/FelczynskiDebski.MovieApp.UI/Views/Movies/Details.cshtml]
+[C:/Users/mifel/Desktop/pw/git/FelczynskiDebski.MovieApp/FelczynskiDebski.MovieApp.UI/Views/Movies/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/1studia/semestr7/PW/docelowe/FelczynskiDebski.MovieApp/FelczynskiDebski.MovieApp.UI/Views/Movies/Edit.cshtml]
+[C:/Users/mifel/Desktop/pw/git/FelczynskiDebski.MovieApp/FelczynskiDebski.MovieApp.UI/Views/Movies/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/1studia/semestr7/PW/docelowe/FelczynskiDebski.MovieApp/FelczynskiDebski.MovieApp.UI/Views/Movies/Index.cshtml]
+[C:/Users/mifel/Desktop/pw/git/FelczynskiDebski.MovieApp/FelczynskiDebski.MovieApp.UI/Views/Movies/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/1studia/semestr7/PW/docelowe/FelczynskiDebski.MovieApp/FelczynskiDebski.MovieApp.UI/Views/Shared/Error.cshtml]
+[C:/Users/mifel/Desktop/pw/git/FelczynskiDebski.MovieApp/FelczynskiDebski.MovieApp.UI/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/1studia/semestr7/PW/docelowe/FelczynskiDebski.MovieApp/FelczynskiDebski.MovieApp.UI/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/mifel/Desktop/pw/git/FelczynskiDebski.MovieApp/FelczynskiDebski.MovieApp.UI/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/1studia/semestr7/PW/docelowe/FelczynskiDebski.MovieApp/FelczynskiDebski.MovieApp.UI/Views/_ViewImports.cshtml]
+[C:/Users/mifel/Desktop/pw/git/FelczynskiDebski.MovieApp/FelczynskiDebski.MovieApp.UI/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/1studia/semestr7/PW/docelowe/FelczynskiDebski.MovieApp/FelczynskiDebski.MovieApp.UI/Views/_ViewStart.cshtml]
+[C:/Users/mifel/Desktop/pw/git/FelczynskiDebski.MovieApp/FelczynskiDebski.MovieApp.UI/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/1studia/semestr7/PW/docelowe/FelczynskiDebski.MovieApp/FelczynskiDebski.MovieApp.UI/Views/Shared/_Layout.cshtml]
+[C:/Users/mifel/Desktop/pw/git/FelczynskiDebski.MovieApp/FelczynskiDebski.MovieApp.UI/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-ebqx2df0hm
